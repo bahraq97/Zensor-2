@@ -33,7 +33,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   format: 0
   speed: 0
-  vinylType: 0
+  vinylType: 1
   tracks:
   - {fileID: 8300000, guid: 1ad6845eb33a64a3cb042d9c96e68766, type: 3}
   - {fileID: 8300000, guid: 83e8b112ebfbb4016a6673a679d920fd, type: 3}
