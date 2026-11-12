@@ -132,6 +132,11 @@ public class NPCController : MonoBehaviour
     /// <summary>Read-only access to the Inspector setting that allows direct interaction.</summary>
     public bool IsInteractable => isInteractable;
 
+    [Tooltip("Disable for seated or stationary NPCs: the dialogue opens in place without walking to the interaction anchor.")]
+    [SerializeField] private bool walkToInteractionAnchor = true;
+
+    public bool WalkToInteractionAnchor => walkToInteractionAnchor;
+
     /// <summary>
     /// Whether the NPC automatically starts a special dialogue shortly after appearing.
     /// The normal patrol waits until this interaction has finished.
@@ -537,7 +542,8 @@ public class NPCController : MonoBehaviour
         isInteracting = false;
         animationController?.SetInteracting(false);
 
-        if (agent != null)
+        // vorher: if (agent != null) agent.isStopped = false;
+        if (agent != null && agent.isActiveAndEnabled && agent.isOnNavMesh)
             agent.isStopped = false;
         
         if (interactionMoveRoutine != null)

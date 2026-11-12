@@ -542,7 +542,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5692030723321127724}
   m_HandleRect: {fileID: 7821279062507371903}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2038,7 +2038,8 @@ MonoBehaviour:
   startPatrollingOnStart: 0
   pickRandomPoints: 0
   avoidSamePointTwice: 1
-  isInteractable: 0
+  isInteractable: 1
+  walkToInteractionAnchor: 1
   doWelcomeInteractionAfterSpawn: 0
   welcomeDialogueScript: {fileID: 0}
   welcomeInteractionDelay: 0.1

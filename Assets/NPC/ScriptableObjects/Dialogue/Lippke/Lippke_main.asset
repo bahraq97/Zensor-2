@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e56986e72841045b39d8be6f829376, type: 3}
+  m_Name: Lippke_main
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogueScript
+  dialogueText: "# Kommentare beginnen mit # oder //\n::start\nNPC: Moin. Suchst
+    du was Bestimmtes?\n\n> Wer bist du?\n-> wer_1\n\n> Was machst du hier im Laden?\n->
+    arbeit_1\n\n> Hast du einen Tipp f\xFCr mich?\nNPC: Frag mich das in f\xFCnf
+    Minuten nochmal.\n-> start\n\n> Tsch\xFCss.\nNPC: Bis dann.\n-> end\n\n\n::wer_1\nNPC:
+    (Text zur Person \u2026)\n\n> Und wie bist du zu Zensor gekommen?\n-> wer_2\n\n>
+    Zur\xFCck.\n-> start\n\n\n::wer_2\nNPC: (\u2026)\n-> start"
+  externalDialogue: {fileID: 0}

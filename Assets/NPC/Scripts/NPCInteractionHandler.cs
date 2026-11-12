@@ -68,6 +68,20 @@ public class NPCInteractionHandler : MonoBehaviour
         if (!npc.IsInteractable)
             return;
 
+        if (!npc.WalkToInteractionAnchor)
+{
+            if (GlobalInteractionState.Instance != null)
+                GlobalInteractionState.Instance.BlockInteractions();
+
+                npc.BeginInteraction();
+
+            if (NPCDialogueWindow.Instance != null)
+                NPCDialogueWindow.Instance.ShowDialogueScript(dialogueScript, npc);
+            else
+                npc.EndInteraction();
+
+    return;
+}
         if (interactionAnchor == null)
         {
             Debug.LogWarning("Interaction anchor is null.");
