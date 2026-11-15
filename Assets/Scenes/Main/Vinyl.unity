@@ -141,10 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1560714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,9 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: f6d3c385ea97f4528a34fb2ef1c6d1bd, type: 2}
-  cover: {fileID: 537233897}
   vinylDisc: {fileID: 490088475}
-  rotationSpeed: 10
 --- !u!1 &2772846
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +450,143 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1882594876}
   m_SourcePrefab: {fileID: 100100000, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
+--- !u!1 &36145232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 36145233}
+  - component: {fileID: 36145235}
+  - component: {fileID: 36145234}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &36145233
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36145232}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1717620320}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &36145234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36145232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: <
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &36145235
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36145232}
+  m_CullTransparentMesh: 1
 --- !u!1001 &36864063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1063,11 +1195,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64842321}
   m_CullTransparentMesh: 1
---- !u!4 &64999109 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1671541458}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &76391618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1168,10 +1295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &82261855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1197,9 +1321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7ff4e9c147cb24f6a9bb285b150f8a42, type: 2}
-  cover: {fileID: 700814127}
   vinylDisc: {fileID: 1671164558}
-  rotationSpeed: 10
 --- !u!1 &84302845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1451,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84302845}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &91959061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 91959062}
+  - component: {fileID: 91959064}
+  - component: {fileID: 91959063}
+  m_Layer: 5
+  m_Name: InsertImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &91959062
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91959061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 393990896}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &91959063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91959061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &91959064
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91959061}
+  m_CullTransparentMesh: 1
 --- !u!1 &96767728 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -1351,10 +1548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &96767731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1380,9 +1574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7b7a4261eef22470f869980c79698882, type: 2}
-  cover: {fileID: 1835095813}
   vinylDisc: {fileID: 1952304765}
-  rotationSpeed: 10
 --- !u!4 &103113503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -1410,10 +1602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &120261865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,9 +1628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7ff4e9c147cb24f6a9bb285b150f8a42, type: 2}
-  cover: {fileID: 2082541161}
   vinylDisc: {fileID: 1603558112}
-  rotationSpeed: 10
 --- !u!1001 &126540819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1508,11 +1695,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 546045355}
   m_SourcePrefab: {fileID: 100100000, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
---- !u!4 &128576688 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1501315540}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &147317232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1765,10 +1947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &182579700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1794,14 +1973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3ae4967b0b28b4a868daa293e0021a97, type: 2}
-  cover: {fileID: 654961009}
   vinylDisc: {fileID: 1944090929}
-  rotationSpeed: 10
---- !u!4 &191347398 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1519529936}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &196726230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,16 +2082,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1816329282}
   m_SourcePrefab: {fileID: 100100000, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
---- !u!4 &216760444 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 147317232}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &223957591 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 36864063}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &227206319 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -2025,10 +2187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &259251454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2054,9 +2213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 128576688}
   vinylDisc: {fileID: 171283088}
-  rotationSpeed: 10
 --- !u!1 &269347553 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -2079,10 +2236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &269347556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2108,9 +2262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: b7a649b752dd647afbdc414cab56fad4, type: 2}
-  cover: {fileID: 1474597358}
   vinylDisc: {fileID: 653214909}
-  rotationSpeed: 10
 --- !u!1 &281041085
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,11 +2314,6 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1222246906}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &285160330 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1897443042}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &293232974
 PrefabInstance:
@@ -2256,11 +2403,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 293232974}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &293232977 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 293232974}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &293232978 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -2278,10 +2420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &293232980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2307,14 +2446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1d8a30df9056c42338ff53000553357d, type: 2}
-  cover: {fileID: 293232977}
   vinylDisc: {fileID: 293232976}
-  rotationSpeed: 10
---- !u!4 &299729908 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 729078818}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &302677160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2403,11 +2535,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 302677160}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &302677163 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 302677160}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &302677164 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -2425,10 +2552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &302677166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2454,9 +2578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 302677163}
   vinylDisc: {fileID: 302677162}
-  rotationSpeed: 10
 --- !u!1001 &304450268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2545,11 +2667,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 304450268}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &304450271 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 304450268}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &304450272 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -2567,10 +2684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &304450274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2596,9 +2710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 304450271}
   vinylDisc: {fileID: 304450270}
-  rotationSpeed: 10
 --- !u!1001 &315134372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2677,11 +2789,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 851270373}
   m_SourcePrefab: {fileID: 100100000, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
---- !u!4 &326219392 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 563565139}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &331270456
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,10 +3151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &336087402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3073,9 +3177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1fcf41a5ff13143f1b180adc9f61d6c6, type: 2}
-  cover: {fileID: 1774210987}
   vinylDisc: {fileID: 1194327105}
-  rotationSpeed: 10
 --- !u!1 &345307465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -3098,10 +3200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &345307468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3127,9 +3226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 6be643a96020f4a8fb4ab746805a17bd, type: 2}
-  cover: {fileID: 482993043}
   vinylDisc: {fileID: 1984904462}
-  rotationSpeed: 10
 --- !u!1 &348715305 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -3152,10 +3249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &348715308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3181,9 +3275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7b7a4261eef22470f869980c79698882, type: 2}
-  cover: {fileID: 1614928836}
   vinylDisc: {fileID: 2087757653}
-  rotationSpeed: 10
 --- !u!1001 &349928126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3284,10 +3376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &357527225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3313,24 +3402,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 549346259}
   vinylDisc: {fileID: 1615639815}
-  rotationSpeed: 10
---- !u!4 &386376751 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 418997786}
+--- !u!1 &393990895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &391135311 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1589073870}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 393990896}
+  - component: {fileID: 393990898}
+  - component: {fileID: 393990897}
+  m_Layer: 5
+  m_Name: InsertsPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &393990896
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &412676399 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 245443969}
+  m_GameObject: {fileID: 393990895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 91959062}
+  - {fileID: 1717620320}
+  - {fileID: 529258619}
+  - {fileID: 1686537312}
+  m_Father: {fileID: 779944000}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &393990897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393990895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &393990898
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393990895}
+  m_CullTransparentMesh: 1
 --- !u!1001 &418997786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3573,10 +3724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &471018084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3602,18 +3750,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1fcf41a5ff13143f1b180adc9f61d6c6, type: 2}
-  cover: {fileID: 191347398}
   vinylDisc: {fileID: 560358765}
-  rotationSpeed: 10
 --- !u!4 &479685259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1296569230}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &482993043 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1392858025}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &485154049 stripped
 GameObject:
@@ -3637,10 +3778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &485154052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3666,9 +3804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1d8a30df9056c42338ff53000553357d, type: 2}
-  cover: {fileID: 1750862083}
   vinylDisc: {fileID: 5121011}
-  rotationSpeed: 10
 --- !u!4 &487035045 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -3678,11 +3814,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1587950299}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &501331108 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1263284327}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &511603606 stripped
 GameObject:
@@ -3706,10 +3837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &511603609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3735,9 +3863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7ff4e9c147cb24f6a9bb285b150f8a42, type: 2}
-  cover: {fileID: 223957591}
   vinylDisc: {fileID: 1549904818}
-  rotationSpeed: 10
 --- !u!1 &518041177 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -3760,10 +3886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &518041180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3789,9 +3912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3ae4967b0b28b4a868daa293e0021a97, type: 2}
-  cover: {fileID: 1317030772}
   vinylDisc: {fileID: 1187787496}
-  rotationSpeed: 10
 --- !u!4 &521346170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -3909,16 +4030,127 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522008971}
   m_Mesh: {fileID: 5665763164275481281, guid: c8508534fc0bc4bff8083df4c014fb7f, type: 3}
---- !u!4 &532550227 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1421830505}
+--- !u!1 &529258618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &537233897 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1587950299}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 529258619}
+  - component: {fileID: 529258622}
+  - component: {fileID: 529258621}
+  - component: {fileID: 529258620}
+  m_Layer: 5
+  m_Name: NextButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &529258619
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529258618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1473243059}
+  m_Father: {fileID: 393990896}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 300, y: 0}
+  m_SizeDelta: {x: 50, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &529258620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529258618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 529258621}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &529258621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529258618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &529258622
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529258618}
+  m_CullTransparentMesh: 1
 --- !u!1 &546045353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -3941,10 +4173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &546045356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3970,9 +4199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1fcf41a5ff13143f1b180adc9f61d6c6, type: 2}
-  cover: {fileID: 1226360852}
   vinylDisc: {fileID: 1837168326}
-  rotationSpeed: 10
 --- !u!1001 &546151287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4051,11 +4278,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1034727679}
   m_SourcePrefab: {fileID: 100100000, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
---- !u!4 &549346259 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1699840662}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &553688346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4144,11 +4366,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 553688346}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &553688349 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 553688346}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &553688350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -4166,10 +4383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &553688352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4195,9 +4409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1d8a30df9056c42338ff53000553357d, type: 2}
-  cover: {fileID: 553688349}
   vinylDisc: {fileID: 553688348}
-  rotationSpeed: 10
 --- !u!4 &553948740 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -4296,11 +4508,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 560888453}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &560888456 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 560888453}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &560888457 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -4318,10 +4525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &560888459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4347,9 +4551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: ebf7a03651cd74570906df4dbda0ab1c, type: 2}
-  cover: {fileID: 560888456}
   vinylDisc: {fileID: 560888455}
-  rotationSpeed: 10
 --- !u!1001 &563565139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4575,10 +4777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &605605028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4604,9 +4803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: ebf7a03651cd74570906df4dbda0ab1c, type: 2}
-  cover: {fileID: 1822521366}
   vinylDisc: {fileID: 917156652}
-  rotationSpeed: 10
 --- !u!1001 &606372126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5010,35 +5207,10 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1843341096}
   m_SourcePrefab: {fileID: 100100000, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
---- !u!4 &654961009 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 334018451}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &661101785 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 349928126}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &665439255 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
   m_PrefabInstance: {fileID: 1899412230}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &668866689 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 628082604}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &697080206 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 606372126}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &700814127 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1621360525}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &729078818
 PrefabInstance:
@@ -5243,16 +5415,148 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749053784}
   m_CullTransparentMesh: 1
---- !u!4 &759778990 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 607438332}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &770689744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 546151287}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &774212103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 774212104}
+  - component: {fileID: 774212106}
+  - component: {fileID: 774212105}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &774212104
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774212103}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1686537312}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &774212105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774212103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Schlie\xDFen"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &774212106
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774212103}
+  m_CullTransparentMesh: 1
 --- !u!1 &774766222
 GameObject:
   m_ObjectHideFlags: 0
@@ -5470,11 +5774,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 778585636}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &778585639 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 778585636}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &778585640 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -5492,10 +5791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &778585642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5521,9 +5817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: ebf7a03651cd74570906df4dbda0ab1c, type: 2}
-  cover: {fileID: 778585639}
   vinylDisc: {fileID: 778585638}
-  rotationSpeed: 10
 --- !u!1 &779943995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5642,6 +5936,8 @@ RectTransform:
   - {fileID: 965316454}
   - {fileID: 749053785}
   - {fileID: 819281104}
+  - {fileID: 1598429051}
+  - {fileID: 393990896}
   m_Father: {fileID: 1733630018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5857,11 +6153,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 785894790}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &785894793 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 785894790}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &785894794 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -5879,10 +6170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &785894796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5908,9 +6196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 785894793}
   vinylDisc: {fileID: 785894792}
-  rotationSpeed: 10
 --- !u!1001 &792445537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6203,10 +6489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &835234258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6232,9 +6515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 2063517258}
   vinylDisc: {fileID: 282145261}
-  rotationSpeed: 10
 --- !u!1 &851270371 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -6257,10 +6538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &851270374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6286,9 +6564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 1709523535}
   vinylDisc: {fileID: 156417487}
-  rotationSpeed: 10
 --- !u!1 &860049733
 GameObject:
   m_ObjectHideFlags: 0
@@ -6337,10 +6613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 0
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!65 &860049736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6463,10 +6736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &868389237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6492,14 +6762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7b7a4261eef22470f869980c79698882, type: 2}
-  cover: {fileID: 1905443466}
   vinylDisc: {fileID: 827879234}
-  rotationSpeed: 10
---- !u!4 &871888920 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 939861579}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &872540285
 GameObject:
   m_ObjectHideFlags: 0
@@ -6729,11 +6992,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888437487}
   m_CullTransparentMesh: 1
---- !u!4 &891423480 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 63392798}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &895373801 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -6903,10 +7161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &939159668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6932,9 +7187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 6be643a96020f4a8fb4ab746805a17bd, type: 2}
-  cover: {fileID: 1421150689}
   vinylDisc: {fileID: 1337946758}
-  rotationSpeed: 10
 --- !u!1001 &939861579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7205,11 +7458,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965316453}
   m_CullTransparentMesh: 1
---- !u!4 &981142538 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 45941378}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &982646571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7369,11 +7617,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1008693757}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1008693760 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1008693757}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1008693761 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -7391,10 +7634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1008693763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7420,9 +7660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: f6d3c385ea97f4528a34fb2ef1c6d1bd, type: 2}
-  cover: {fileID: 1008693760}
   vinylDisc: {fileID: 1008693759}
-  rotationSpeed: 10
 --- !u!1 &1009754400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -7445,10 +7683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1009754403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7474,9 +7709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 1826737879}
   vinylDisc: {fileID: 1411591399}
-  rotationSpeed: 10
 --- !u!1001 &1021859356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7570,10 +7803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1034727680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7599,9 +7829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 2d0e1e90c5f024d84a9cab22441dd260, type: 2}
-  cover: {fileID: 1952427683}
   vinylDisc: {fileID: 770689744}
-  rotationSpeed: 10
 --- !u!1 &1049434357
 GameObject:
   m_ObjectHideFlags: 0
@@ -7798,10 +8026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1065037678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7827,9 +8052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1fcf41a5ff13143f1b180adc9f61d6c6, type: 2}
-  cover: {fileID: 1714017932}
   vinylDisc: {fileID: 2076690283}
-  rotationSpeed: 10
 --- !u!4 &1087439435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -7862,10 +8085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1110791446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7891,9 +8111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1fcf41a5ff13143f1b180adc9f61d6c6, type: 2}
-  cover: {fileID: 1826750306}
   vinylDisc: {fileID: 1833317580}
-  rotationSpeed: 10
 --- !u!1 &1112518048
 GameObject:
   m_ObjectHideFlags: 0
@@ -7904,6 +8122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112518050}
   - component: {fileID: 1112518049}
+  - component: {fileID: 1112518051}
   m_Layer: 0
   m_Name: VinylSelectController
   m_TagString: Untagged
@@ -7938,6 +8157,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1733630018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1112518051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112518048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0492f81f0d326d740a9fd6c7c74140ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecordInsertsUI
+  controller: {fileID: 1112518049}
+  openButton: {fileID: 1598429052}
+  panel: {fileID: 393990895}
+  insertImage: {fileID: 91959063}
+  previousButton: {fileID: 1717620321}
+  nextButton: {fileID: 529258620}
+  closeButton: {fileID: 1686537313}
 --- !u!1001 &1127692386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8026,11 +8264,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1127692386}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1127692389 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1127692386}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1127692390 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -8048,10 +8281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1127692392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8077,14 +8307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: f6d3c385ea97f4528a34fb2ef1c6d1bd, type: 2}
-  cover: {fileID: 1127692389}
   vinylDisc: {fileID: 1127692388}
-  rotationSpeed: 10
---- !u!4 &1130693805 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1590460123}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1130968184
 GameObject:
   m_ObjectHideFlags: 0
@@ -8158,10 +8381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1133890478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8187,9 +8407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3ae4967b0b28b4a868daa293e0021a97, type: 2}
-  cover: {fileID: 1622223190}
   vinylDisc: {fileID: 553948740}
-  rotationSpeed: 10
 --- !u!1 &1135159247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -8212,10 +8430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1135159250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8241,9 +8456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7ff4e9c147cb24f6a9bb285b150f8a42, type: 2}
-  cover: {fileID: 1471613266}
   vinylDisc: {fileID: 2136723692}
-  rotationSpeed: 10
 --- !u!1001 &1150876662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8332,10 +8545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1155680091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8361,9 +8571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 2d0e1e90c5f024d84a9cab22441dd260, type: 2}
-  cover: {fileID: 1587823141}
   vinylDisc: {fileID: 487035045}
-  rotationSpeed: 10
 --- !u!1001 &1159200288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8452,11 +8660,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1159200288}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1159200291 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1159200288}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1159200292 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -8474,10 +8677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1159200294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8503,9 +8703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 1159200291}
   vinylDisc: {fileID: 1159200290}
-  rotationSpeed: 10
 --- !u!1 &1172364597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -8528,10 +8726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1172364600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8557,9 +8752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1d8a30df9056c42338ff53000553357d, type: 2}
-  cover: {fileID: 64999109}
   vinylDisc: {fileID: 1087439435}
-  rotationSpeed: 10
 --- !u!1 &1172817422
 GameObject:
   m_ObjectHideFlags: 0
@@ -8719,10 +8912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1184975886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8748,9 +8938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 285160330}
   vinylDisc: {fileID: 463201482}
-  rotationSpeed: 10
 --- !u!4 &1187787496 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -8793,10 +8981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1209813932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8822,9 +9007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 891423480}
   vinylDisc: {fileID: 1477653392}
-  rotationSpeed: 10
 --- !u!1001 &1222246906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8969,11 +9152,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 348715307}
   m_SourcePrefab: {fileID: 100100000, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
---- !u!4 &1226360852 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 126540819}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1233866818 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -9216,10 +9394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1243600434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9245,9 +9420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 501331108}
   vinylDisc: {fileID: 1849929980}
-  rotationSpeed: 10
 --- !u!1001 &1247160546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9632,10 +9805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1279802111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9661,9 +9831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 2d0e1e90c5f024d84a9cab22441dd260, type: 2}
-  cover: {fileID: 661101785}
   vinylDisc: {fileID: 1678865824}
-  rotationSpeed: 10
 --- !u!1 &1281516970 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -9686,10 +9854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1281516973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9715,9 +9880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: f6d3c385ea97f4528a34fb2ef1c6d1bd, type: 2}
-  cover: {fileID: 386376751}
   vinylDisc: {fileID: 1233866818}
-  rotationSpeed: 10
 --- !u!1 &1289058540 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -9740,10 +9903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1289058543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9769,9 +9929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: b7a649b752dd647afbdc414cab56fad4, type: 2}
-  cover: {fileID: 1548645148}
   vinylDisc: {fileID: 103113503}
-  rotationSpeed: 10
 --- !u!1001 &1296569230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9850,11 +10008,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1889616862}
   m_SourcePrefab: {fileID: 100100000, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
---- !u!4 &1317030772 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 2098904722}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1337946758 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -9937,11 +10090,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351243305}
   m_CullTransparentMesh: 1
---- !u!4 &1367008748 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1796323982}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1367046447
 GameObject:
   m_ObjectHideFlags: 0
@@ -10167,11 +10315,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1370109045}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1370109048 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1370109045}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1370109049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -10189,10 +10332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1370109051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10218,9 +10358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 1370109048}
   vinylDisc: {fileID: 1370109047}
-  rotationSpeed: 10
 --- !u!4 &1375127646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -10248,10 +10386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1376603676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10277,9 +10412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 6be643a96020f4a8fb4ab746805a17bd, type: 2}
-  cover: {fileID: 759778990}
   vinylDisc: {fileID: 1748240029}
-  rotationSpeed: 10
 --- !u!4 &1378712115 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -10355,16 +10488,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 76391618}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1414184030 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 31179660}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1421150689 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1059867964}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1421830505
 PrefabInstance:
@@ -10449,11 +10572,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 245443969}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1428410844 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 203300812}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1429177326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -10476,10 +10594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1429177329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10505,9 +10620,144 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 2d0e1e90c5f024d84a9cab22441dd260, type: 2}
-  cover: {fileID: 216760444}
   vinylDisc: {fileID: 1094724689}
-  rotationSpeed: 10
+--- !u!1 &1434980992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1434980993}
+  - component: {fileID: 1434980995}
+  - component: {fileID: 1434980994}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1434980993
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434980992}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598429051}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1434980994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434980992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Beilagen ansehen
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1434980995
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434980992}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1438429433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10577,11 +10827,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6f4292ba9610fa249b529ffb0ee99174, type: 3}
   m_PrefabInstance: {fileID: 1438429433}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1450300192 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1933494705}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1456280873 stripped
 Transform:
@@ -10763,16 +11008,143 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 336087401}
   m_SourcePrefab: {fileID: 100100000, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
---- !u!4 &1471613266 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 5915700}
+--- !u!1 &1473243058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1474597358 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1021859356}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1473243059}
+  - component: {fileID: 1473243061}
+  - component: {fileID: 1473243060}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1473243059
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473243058}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 529258619}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1473243060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473243058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '>'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1473243061
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473243058}
+  m_CullTransparentMesh: 1
 --- !u!4 &1477653392 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -10800,10 +11172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1477922064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10828,10 +11197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655a54e41a107424b9867b061fb5ab15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
-  data: {fileID: 11400000, guid: 1fcf41a5ff13143f1b180adc9f61d6c6, type: 2}
-  cover: {fileID: 2103854736}
+  data: {fileID: 11400000, guid: 5ccb20fd246d5ed48afa8f0f7c01398d, type: 2}
   vinylDisc: {fileID: 665439255}
-  rotationSpeed: 10
 --- !u!1001 &1487203951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10920,11 +11287,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1487203951}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1487203954 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1487203951}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1487203955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -10942,10 +11304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1487203957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10971,9 +11330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1d8a30df9056c42338ff53000553357d, type: 2}
-  cover: {fileID: 1487203954}
   vinylDisc: {fileID: 1487203953}
-  rotationSpeed: 10
 --- !u!1001 &1501315540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11206,11 +11563,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1533062563}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1533062566 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1533062563}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1533062567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -11228,10 +11580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1533062569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11257,9 +11606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: f6d3c385ea97f4528a34fb2ef1c6d1bd, type: 2}
-  cover: {fileID: 1533062566}
   vinylDisc: {fileID: 1533062565}
-  rotationSpeed: 10
 --- !u!1 &1543319451 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -11282,10 +11629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1543319454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11311,23 +11655,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: ebf7a03651cd74570906df4dbda0ab1c, type: 2}
-  cover: {fileID: 981142538}
   vinylDisc: {fileID: 1375127646}
-  rotationSpeed: 10
---- !u!4 &1548645148 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1150876662}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1549904818 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
   m_PrefabInstance: {fileID: 36864063}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1587823141 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 780190958}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1587849369 stripped
 GameObject:
@@ -11351,10 +11683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1587849372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11380,9 +11709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 532550227}
   vinylDisc: {fileID: 1456280873}
-  rotationSpeed: 10
 --- !u!1001 &1587950299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11617,15 +11944,131 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1640092190}
   m_SourcePrefab: {fileID: 100100000, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
+--- !u!1 &1598429050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598429051}
+  - component: {fileID: 1598429054}
+  - component: {fileID: 1598429053}
+  - component: {fileID: 1598429052}
+  m_Layer: 5
+  m_Name: OpenInsertsButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1598429051
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598429050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1434980993}
+  m_Father: {fileID: 779944000}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 700, y: -300}
+  m_SizeDelta: {x: 160, y: 55}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1598429052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598429050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1598429053}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1598429053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598429050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.729222, g: 0.5109024, b: 0.8396226, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1598429054
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598429050}
+  m_CullTransparentMesh: 1
 --- !u!4 &1603558112 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
   m_PrefabInstance: {fileID: 926027762}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1614928836 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1224780600}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1615639815 stripped
 Transform:
@@ -11698,11 +12141,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 82261854}
   m_SourcePrefab: {fileID: 100100000, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
---- !u!4 &1622223190 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 792445537}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1640092188 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -11725,10 +12163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1640092191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11754,9 +12189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3ae4967b0b28b4a868daa293e0021a97, type: 2}
-  cover: {fileID: 1130693805}
   vinylDisc: {fileID: 954989203}
-  rotationSpeed: 10
 --- !u!1 &1644155769 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -11779,10 +12212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1644155772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11808,9 +12238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 2d0e1e90c5f024d84a9cab22441dd260, type: 2}
-  cover: {fileID: 412676399}
   vinylDisc: {fileID: 1427688593}
-  rotationSpeed: 10
 --- !u!1001 &1658257388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11899,11 +12327,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1658257388}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1658257391 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1658257388}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1658257392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -11921,10 +12344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1658257394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11950,9 +12370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 1658257391}
   vinylDisc: {fileID: 1658257390}
-  rotationSpeed: 10
 --- !u!1 &1664208483
 GameObject:
   m_ObjectHideFlags: 0
@@ -12200,10 +12618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1677754797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12229,9 +12644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: b7a649b752dd647afbdc414cab56fad4, type: 2}
-  cover: {fileID: 1822295908}
   vinylDisc: {fileID: 1192806505}
-  rotationSpeed: 10
 --- !u!4 &1678865824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -12423,6 +12836,127 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685964763}
   m_CullTransparentMesh: 1
+--- !u!1 &1686537311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686537312}
+  - component: {fileID: 1686537315}
+  - component: {fileID: 1686537314}
+  - component: {fileID: 1686537313}
+  m_Layer: 5
+  m_Name: CloseButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1686537312
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686537311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 774212104}
+  m_Father: {fileID: 393990896}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 300, y: -300}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1686537313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686537311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1686537314}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1686537314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686537311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1686537315
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686537311}
+  m_CullTransparentMesh: 1
 --- !u!1 &1690058078
 GameObject:
   m_ObjectHideFlags: 0
@@ -12487,10 +13021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1695239180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12516,9 +13047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 391135311}
   vinylDisc: {fileID: 521346170}
-  rotationSpeed: 10
 --- !u!1001 &1699840662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12841,16 +13370,127 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706407572}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1709523535 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 315134372}
+--- !u!1 &1717620319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1714017932 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 940103411}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1717620320}
+  - component: {fileID: 1717620323}
+  - component: {fileID: 1717620322}
+  - component: {fileID: 1717620321}
+  m_Layer: 5
+  m_Name: PreviousButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1717620320
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717620319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 36145233}
+  m_Father: {fileID: 393990896}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -300, y: 0}
+  m_SizeDelta: {x: 50, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1717620321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717620319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1717620322}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1717620322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717620319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1717620323
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717620319}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1723426764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12939,11 +13579,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1723426764}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1723426767 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1723426764}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1723426768 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -12961,10 +13596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1723426770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12990,9 +13622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: ebf7a03651cd74570906df4dbda0ab1c, type: 2}
-  cover: {fileID: 1723426767}
   vinylDisc: {fileID: 1723426766}
-  rotationSpeed: 10
 --- !u!1 &1733630015
 GameObject:
   m_ObjectHideFlags: 0
@@ -13089,11 +13719,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 31179660}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1750862083 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 2108268230}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1762257049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -13116,10 +13741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1762257052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13145,18 +13767,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3ae4967b0b28b4a868daa293e0021a97, type: 2}
-  cover: {fileID: 1367008748}
   vinylDisc: {fileID: 1844282740}
-  rotationSpeed: 10
 --- !u!4 &1771314881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 939861579}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1774210987 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1469946618}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &1779576415 stripped
 MeshRenderer:
@@ -13194,11 +13809,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2083928460}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 180}
---- !u!4 &1788473592 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1296569230}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1792094315
 GameObject:
   m_ObjectHideFlags: 0
@@ -13497,11 +14107,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1805874176}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1805874179 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1805874176}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1805874180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -13519,10 +14124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1805874182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13548,9 +14150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 1805874179}
   vinylDisc: {fileID: 1805874178}
-  rotationSpeed: 10
 --- !u!1001 &1806367900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13639,11 +14239,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1806367900}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1806367903 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1806367900}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1806367904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -13661,10 +14256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1806367906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13690,9 +14282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 1806367903}
   vinylDisc: {fileID: 1806367902}
-  rotationSpeed: 10
 --- !u!1 &1810998264
 GameObject:
   m_ObjectHideFlags: 0
@@ -13757,10 +14347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1816329283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13786,9 +14373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7b7a4261eef22470f869980c79698882, type: 2}
-  cover: {fileID: 1428410844}
   vinylDisc: {fileID: 995248088}
-  rotationSpeed: 10
 --- !u!1 &1819082515 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -13811,10 +14396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1819082518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13840,43 +14422,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: ebf7a03651cd74570906df4dbda0ab1c, type: 2}
-  cover: {fileID: 668866689}
   vinylDisc: {fileID: 1262998989}
-  rotationSpeed: 10
 --- !u!4 &1821364633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
   m_PrefabInstance: {fileID: 563565139}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1822295908 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1895660112}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1822521366 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1239208928}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1826737879 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 76391618}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1826750306 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 982646571}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1833317580 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
   m_PrefabInstance: {fileID: 982646571}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1835095813 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 820643541}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1837168326 stripped
 Transform:
@@ -13980,10 +14535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1843341097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14009,9 +14561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 2080727894}
   vinylDisc: {fileID: 898455095}
-  rotationSpeed: 10
 --- !u!4 &1844282740 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -14039,10 +14589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1849705035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14068,9 +14615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7b7a4261eef22470f869980c79698882, type: 2}
-  cover: {fileID: 299729908}
   vinylDisc: {fileID: 1670499426}
-  rotationSpeed: 10
 --- !u!4 &1849929980 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -14169,11 +14714,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1878594541}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1878594544 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1878594541}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1878594545 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -14191,10 +14731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1878594547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14220,9 +14757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 3f63d13414885456bb038c565d670aa6, type: 2}
-  cover: {fileID: 1878594544}
   vinylDisc: {fileID: 1878594543}
-  rotationSpeed: 10
 --- !u!1 &1882594874 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -14245,10 +14780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1882594877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14274,9 +14806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 1d8a30df9056c42338ff53000553357d, type: 2}
-  cover: {fileID: 1414184030}
   vinylDisc: {fileID: 1749228637}
-  rotationSpeed: 10
 --- !u!1001 &1882972213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14365,11 +14895,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 1882972213}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1882972216 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1882972213}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1882972217 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -14387,10 +14912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1882972219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14416,9 +14938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: ebf7a03651cd74570906df4dbda0ab1c, type: 2}
-  cover: {fileID: 1882972216}
   vinylDisc: {fileID: 1882972215}
-  rotationSpeed: 10
 --- !u!1 &1889616860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -14441,10 +14961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1889616863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14470,9 +14987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: ebf7a03651cd74570906df4dbda0ab1c, type: 2}
-  cover: {fileID: 1788473592}
   vinylDisc: {fileID: 479685259}
-  rotationSpeed: 10
 --- !u!1001 &1895660112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14667,7 +15182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
       propertyPath: m_Name
-      value: Robby Sharp - Green Street (1)
+      value: Din A Testbild - Abfall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14683,11 +15198,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1477922063}
   m_SourcePrefab: {fileID: 100100000, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
---- !u!4 &1905443466 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 899428920}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1917559010 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -14710,10 +15220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1917559013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14739,14 +15246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: f6d3c385ea97f4528a34fb2ef1c6d1bd, type: 2}
-  cover: {fileID: 871888920}
   vinylDisc: {fileID: 1771314881}
-  rotationSpeed: 10
---- !u!4 &1926121889 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 2057715898}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1933494705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14835,10 +15335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1936187621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14864,19 +15361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7ff4e9c147cb24f6a9bb285b150f8a42, type: 2}
-  cover: {fileID: 326219392}
   vinylDisc: {fileID: 1821364633}
-  rotationSpeed: 10
---- !u!4 &1936645716 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1056970678}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1942989579 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1247160546}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1944090929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -14891,11 +15376,6 @@ MeshRenderer:
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
   m_PrefabInstance: {fileID: 820643541}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1952427683 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 546151287}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1984904462 stripped
 Transform:
@@ -14985,10 +15465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &1996648043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15014,9 +15491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 6be643a96020f4a8fb4ab746805a17bd, type: 2}
-  cover: {fileID: 1936645716}
   vinylDisc: {fileID: 227206319}
-  rotationSpeed: 10
 --- !u!1001 &2002212548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15232,7 +15707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
       propertyPath: m_Name
-      value: Din A Testbild - Programm 1
+      value: "Manuel G\xF6ttsching - Damen-Eleganza"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15248,11 +15723,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2081107194}
   m_SourcePrefab: {fileID: 100100000, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
---- !u!4 &2063517258 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 1222246906}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2064188263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -15275,10 +15745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &2064188266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15304,9 +15771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: f6d3c385ea97f4528a34fb2ef1c6d1bd, type: 2}
-  cover: {fileID: 1942989579}
   vinylDisc: {fileID: 147743787}
-  rotationSpeed: 10
 --- !u!1 &2072337824 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -15329,10 +15794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &2072337827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15358,9 +15820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 7b7a4261eef22470f869980c79698882, type: 2}
-  cover: {fileID: 1450300192}
   vinylDisc: {fileID: 1873372762}
-  rotationSpeed: 10
 --- !u!1 &2072395475
 GameObject:
   m_ObjectHideFlags: 0
@@ -15591,11 +16051,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 2080422718}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2080422721 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 2080422718}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2080422722 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -15613,10 +16068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &2080422724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15642,14 +16094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 2080422721}
   vinylDisc: {fileID: 2080422720}
-  rotationSpeed: 10
---- !u!4 &2080727894 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 654692139}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2081107192 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -15672,10 +16117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &2081107195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15700,15 +16142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655a54e41a107424b9867b061fb5ab15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
-  data: {fileID: 11400000, guid: 3ae4967b0b28b4a868daa293e0021a97, type: 2}
-  cover: {fileID: 1926121889}
+  data: {fileID: 11400000, guid: 18129c61bf5f2714d89247b23ec91e18, type: 2}
   vinylDisc: {fileID: 1028959371}
-  rotationSpeed: 10
---- !u!4 &2082541161 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 926027762}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2083928459
 GameObject:
   m_ObjectHideFlags: 0
@@ -16065,11 +16500,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 518041179}
   m_SourcePrefab: {fileID: 100100000, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
---- !u!4 &2103854736 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
-  m_PrefabInstance: {fileID: 1899412230}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2108268230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16369,11 +16799,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 2125268769}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2125268772 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 2125268769}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2125268773 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -16391,10 +16816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &2125268775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16420,9 +16842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: f6d3c385ea97f4528a34fb2ef1c6d1bd, type: 2}
-  cover: {fileID: 2125268772}
   vinylDisc: {fileID: 2125268771}
-  rotationSpeed: 10
 --- !u!1001 &2126466109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16511,11 +16931,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
   m_PrefabInstance: {fileID: 2126466109}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2126466112 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7184960119004496200, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
-  m_PrefabInstance: {fileID: 2126466109}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2126466113 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0795ea27cc86ce0419e3a64c6062c4e5, type: 3}
@@ -16533,10 +16948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &2126466115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16562,9 +16974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: 65e067b17e3134964900fe13a5374412, type: 2}
-  cover: {fileID: 2126466112}
   vinylDisc: {fileID: 2126466111}
-  rotationSpeed: 10
 --- !u!4 &2136723692 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1463818706300653924, guid: ace94385fc4377b4e97d2227b4b1d1cd, type: 3}
@@ -16592,10 +17002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1f26f5b2499bb4f86df494038d64c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction.util.ColorReveal.ColorRevealToggle
-  startGrayscale: 1
   includeChildRenderers: 1
-  includeInactiveChildren: 1
-  stayColored: 0
 --- !u!114 &2140533811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16621,9 +17028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::record.RecordInteractionScript
   data: {fileID: 11400000, guid: b7a649b752dd647afbdc414cab56fad4, type: 2}
-  cover: {fileID: 697080206}
   vinylDisc: {fileID: 1189696686}
-  rotationSpeed: 10
 --- !u!1 &35844036033215015
 GameObject:
   m_ObjectHideFlags: 0

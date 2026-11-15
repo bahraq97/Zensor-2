@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed298a5a4a9c1843a8000e5e1e580b0, type: 3}
+  m_Name: Din A Testbild - Abfall
+  m_EditorClassIdentifier: Assembly-CSharp::RecordData
+  title: Abfall
+  author: Din A Testbild
+  album: 
+  year: 1979
+  description: 
+  sprite: {fileID: 0}
+  format: 0
+  speed: 0
+  vinylType: 1
+  tracks:
+  - {fileID: 0}
+  labelFrontTexture: {fileID: 0}
+  labelBackTexture: {fileID: 0}
+  coverFrontTexture: {fileID: 2800000, guid: b17f1703e2863404c8176f7d5a38fbd6, type: 3}
+  coverBackTexture: {fileID: 2800000, guid: 040774a05ff666c4085659eadd82e9d5, type: 3}
+  inserts:
+  - {fileID: 21300000, guid: c71435c4743fcd649bbc7561b37e07d3, type: 3}
+  - {fileID: 21300000, guid: 8cd18bff425cef34385a05acc9ebb919, type: 3}
+  - {fileID: 21300000, guid: 41b4fd9317e9fcf4995d448f110c1e87, type: 3}
+  - {fileID: 21300000, guid: 49f3df3cdc17a524c862831091d8bc77, type: 3}

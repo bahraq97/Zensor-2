@@ -13,6 +13,7 @@
         VinylDraggedOutFocused,    ///< The extracted disc can rotate or be sent to the player.
         DraggingVinylIn,            ///< The disc is being pushed back into its cover.
         vinylPlayer,               ///< Player mode without the metadata overlay.
-        VinylPlayerInfoOpen        ///< Player metadata is open; closing restores vinylPlayer.
+        VinylPlayerInfoOpen,        ///< Player metadata is open; closing restores vinylPlayer.
+        InsertsOpen                  ///< Additional materials of vinyl are being viewed.
     }
 }

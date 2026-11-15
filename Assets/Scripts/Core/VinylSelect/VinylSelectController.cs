@@ -122,6 +122,22 @@ public class VinylSelectController : MonoBehaviour
     }
 
     /**
+     * allows insertion of additional materials like album inserts.
+     */
+    public bool OpenInserts()
+    {
+        return TryChangeState(VinylState.VinylSelected, VinylState.InsertsOpen);
+    }
+
+    /**
+     * closes the viewing of additional materials like album inserts.
+     */
+    public bool CloseInserts()
+    {
+        return TryChangeState(VinylState.InsertsOpen, VinylState.VinylSelected);
+    }
+
+    /**
      * Starts dragging the disc out of its cover.
      */
     public bool BeginDragOut()

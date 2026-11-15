@@ -73,4 +73,5 @@ public class RecordData : ScriptableObject
     public Texture2D labelBackTexture;
     public Texture2D coverFrontTexture;
     public Texture2D coverBackTexture;
+    public List<Sprite> inserts = new List<Sprite>();
 }
