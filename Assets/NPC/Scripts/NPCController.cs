@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Core.camera;
+using Unity.Cinemachine;
 
 /// <summary>
 /// Controls one NPC while the game is running.
@@ -132,9 +134,14 @@ public class NPCController : MonoBehaviour
     /// <summary>Read-only access to the Inspector setting that allows direct interaction.</summary>
     public bool IsInteractable => isInteractable;
 
+    /// <summary>
+    /// Whether the NPC walks to the interaction anchor before the dialogue opens.
+    /// Disable for seated or stationary NPCs.
+    /// </summary>
     [Tooltip("Disable for seated or stationary NPCs: the dialogue opens in place without walking to the interaction anchor.")]
     [SerializeField] private bool walkToInteractionAnchor = true;
 
+    /// <summary>Read-only access to the Inspector setting that makes this NPC walk to the interaction anchor first.</summary>
     public bool WalkToInteractionAnchor => walkToInteractionAnchor;
 
     /// <summary>
@@ -239,6 +246,16 @@ public class NPCController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
     }
 
+    [Header("Dialogue Camera")]
+    [Tooltip("Optional camera that becomes active while the player talks to this NPC. Leave empty to keep the current view.")]
+    [SerializeField] private CinemachineCamera dialogueCamera;
+
+    /// <summary>Priority of the dialogue camera, higher than the spot cameras (10) so Cinemachine blends to it.</summary>
+    private const int DialogueCameraPriority = 100;
+
+    /// <summary>The spot that was current when the dialogue camera was activated.</summary>
+    private CameraSpot spotBeforeDialogue;
+
     /// <summary>Finds required components and applies the starting mood.</summary>
     private void Awake()
     {
@@ -248,6 +265,12 @@ public class NPCController : MonoBehaviour
             agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         ApplyCurrentMoodSettings();
+
+        if (dialogueCamera != null)
+        {
+            dialogueCamera.Priority = DialogueCameraPriority;
+            dialogueCamera.enabled = false;
+        }
     }
 
     /// <summary>Runs the optional welcome dialogue before starting the patrol.</summary>
@@ -541,8 +564,8 @@ public class NPCController : MonoBehaviour
 
         isInteracting = false;
         animationController?.SetInteracting(false);
+        DeactivateDialogueCamera();
 
-        // vorher: if (agent != null) agent.isStopped = false;
         if (agent != null && agent.isActiveAndEnabled && agent.isOnNavMesh)
             agent.isStopped = false;
         
@@ -557,6 +580,39 @@ public class NPCController : MonoBehaviour
 
         if (GlobalInteractionState.Instance != null)
             GlobalInteractionState.Instance.UnblockInteractions();
+    }
+
+    /// <summary>
+    /// Blends to the dialogue camera and pauses right-click look at the current spot.
+    /// Called when the dialogue window opens, not when the NPC starts walking,
+    /// because the interaction anchor is the main camera and moving it would cancel the walk.
+    /// </summary>
+    public void ActivateDialogueCamera()
+    {
+        if (dialogueCamera == null || dialogueCamera.enabled)
+            return;
+
+        SpotManager spotManager = FindFirstObjectByType<SpotManager>();
+        spotBeforeDialogue = spotManager != null ? spotManager.GetCurrentSpot() : null;
+
+        if (spotBeforeDialogue != null)
+            spotBeforeDialogue.SetLookControlActive(false);
+
+        dialogueCamera.enabled = true;
+    }
+
+    /// <summary>Blends back to the spot camera and restores right-click look.</summary>
+    private void DeactivateDialogueCamera()
+    {
+        if (dialogueCamera == null || !dialogueCamera.enabled)
+            return;
+
+        dialogueCamera.enabled = false;
+
+        if (spotBeforeDialogue != null)
+            spotBeforeDialogue.SetLookControlActive(true);
+
+        spotBeforeDialogue = null;
     }
 
     /// <summary>Moves the NPC to the shared interaction point.</summary>

@@ -2048,6 +2048,7 @@ MonoBehaviour:
   animationController: {fileID: 5233928681277537747}
   drawGizmos: 1
   currentTarget: {fileID: 0}
+  dialogueCamera: {fileID: 0}
 --- !u!114 &5233928681277537747
 MonoBehaviour:
   m_ObjectHideFlags: 0
