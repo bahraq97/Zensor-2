@@ -12,10 +12,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e56986e72841045b39d8be6f829376, type: 3}
   m_Name: Lippke_main
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogueScript
-  dialogueText: "# Kommentare beginnen mit # oder //\n::start\nNPC: Moin. Suchst
-    du was Bestimmtes?\n\n> Wer bist du?\n-> wer_1\n\n> Was machst du hier im Laden?\n->
-    arbeit_1\n\n> Hast du einen Tipp f\xFCr mich?\nNPC: Frag mich das in f\xFCnf
-    Minuten nochmal.\n-> start\n\n> Tsch\xFCss.\nNPC: Bis dann.\n-> end\n\n\n::wer_1\nNPC:
-    (Text zur Person \u2026)\n\n> Und wie bist du zu Zensor gekommen?\n-> wer_2\n\n>
-    Zur\xFCck.\n-> start\n\n\n::wer_2\nNPC: (\u2026)\n-> start"
+  dialogueText: "::start\nNPC: Hm? Moment, nur noch den Absatz \u2026 So. Wenn de
+    'ne Rarit\xE4t suchst, biste bei mir falsch.\n\n> Was liest du da?\n-> lesen_1\n\n>
+    Ich suche eine bestimmte Platte.\n-> platte_1\n\n> Arbeitest du hier?\n-> arbeit_1\n\n>
+    Schon gut, ich schau mich nur um.\nNPC: Na denn. Und mach die T\xFCr zu, det
+    zieht wie Hechtsuppe.\n-> end\n\n\n::lesen_1\nNPC: [PLACEHOLDER]\n-> hub\n\n\n::platte_1\nNPC:
+    Frag Burkhardt, der kennt jede Pressung. Ick mach hier blo\xDF die Zettel.\n\n>
+    Und wenn er sie nicht hat?\n-> platte_2\n\n> Wo ist er?\n-> platte_wo\n\n> Danke,
+    tsch\xFCss.\nNPC: Jern. Und mach die T\xFCr hinter dir zu.\n-> end\n\n\n::platte_wo\nNPC:
+    Wahrscheinlich hinten im Lager und schleppt Kisten. Oder er h\xE4ngt schon wieder
+    mit London am Telefon.\n\n> Wer ist dieser Burkhardt \xFCberhaupt?\n-> burkhardt_1\n\n>
+    Dann warte ich auf ihn.\nNPC: Mach dit. Aber setz dich nich uff die Neuheiten.\n->
+    hub\n\n\n::platte_2\nNPC: Denn isse zensiert. Dit sagt er jedenfalls immer.\n\n>
+    Daher der Name?\nNPC: Jenau. Seitdem nennen ihn alle blo\xDF noch Zensor.\n->
+    hub\n\n\n::arbeit_1\nNPC: Ick mach hier die Buchhaltung, also die Zettelwirtschaft.
+    Ick bin \xFCbrigens Cola, eigentlich Coca Cola. Frag nich.\n\n> Klingt nach Chaos.\n->
+    chaos\n\n> Warum nicht vorne an der Theke?\n-> theke\n\n> Lohnt sich das wenigstens?\n->
+    konzerte_1\n\n> Na dann, viel Spa\xDF.\nNPC: Danke. Den werd ick mit die Kassenb\xFCcher
+    haben.\n-> end\n\n\n::chaos\nNPC: Burkhardt is dit Chaos, ick bin blo\xDF der
+    Karton drunter. Neulich stand 'ne Bestellung uff 'ner Plattenh\xFClle. Die H\xFClle
+    hatten wa schon verkauft.\n\n> Und dann?\nNPC: Denn ham wa jewartet, ob sich
+    eener meldet. Hat sich keener jemeldet.\n-> hub\n\n> Klingt anstrengend.\n->
+    hub\n\n\n::theke\nNPC: Vorne fachsimpeln die Sammler \xFCber Fehlpressungen.
+    Ehrlich jesagt hab ick vor denen Schiss.\n\n> Ich bin kein Sammler.\nNPC: Dit
+    sagen se alle. Bis se nach der B-Seite fragen.\n-> hub\n\n\n::burkhardt_1\nNPC:
+    Der Chef. Er hat mit Importsingles uffm Flohmarkt anjefangen, und jetzt macht
+    er sogar 'n eigenet Label.\n\n> Was f\xFCr ein Label?\n-> label\n\n> Okay.\n->
+    hub\n\n\n::label\nNPC: Zensor. Die erste LP is von Throbbing Gristle, und dit
+    is nischt f\xFCrs Kaffeekr\xE4nzchen.\n\n> Und wie nennt ihr diese Musik?\nNPC:
+    Jar nich. Wat in keene Schublade passt, kommt bei uns in die Kiste \u201ESonstiget\u201C,
+    und die is immer am vollsten.\n-> hub\n\n> Klingt laut.\nNPC: Is dit ooch. Dit
+    is ja der Sinn.\n-> hub\n\n\n::konzerte_1\nNPC: Ick komm umsonst uff fast jedet
+    Konzert. SO36, Loft, Metropol, such dir wat aus.\n\n> Nimmst du mich mit?\n->
+    konzerte_mit\n\n> Und hier im Laden?\n-> keller\n\n> Nicht schlecht.\n-> hub\n\n\n::konzerte_mit\nNPC:
+    Vielleicht. Wenn de nich vorher schlappmachst, dit jeht bis fr\xFCh um viere.\n\n>
+    Versprochen.\nNPC: Na kiek ma. Denn halt ick heute Abend am SO36 nach dir Ausschau.\n->
+    hub\n\n> Ein andermal.\n-> hub\n\n\n::keller\nNPC: Am Wochenende spielen unten
+    im Keller Bands. Dit merkste schon, wenn's durch'n Hinterhof wummert.\n\n> Gut
+    zu wissen.\n-> hub\n\n\n::herkunft_1\nNPC: Ick bin 'n Landei aus Bad Gandersheim.
+    Det Berlinern hab ick mir hier erst anjew\xF6hnt. Punk kannt ick vorher blo\xDF
+    aus'm Radio, von John Peel uff BFBS.\n\n> Und dann Berlin?\n-> herkunft_berlin\n\n>
+    Hast du selbst Musik gemacht?\n-> herkunft_band\n\n> Interessant.\n-> hub\n\n\n::herkunft_berlin\nNPC:
+    Siebenundsiebzig bin ick zum Studieren an die HdK jekommen, Visuelle Kommunikation.
+    Abends uff Konzerten hab ick aber mehr jelernt.\n\n> Kann ich mir vorstellen.\n->
+    hub\n\n\n::herkunft_band\nNPC: Ja, mit drei Freundinnen. Erst hie\xDFen wa DinA4,
+    sp\xE4ter Din A Testbild, und die Instrumente ham wa nach Laune verteilt.\n\n>
+    Wie punk.\n-> hub\n\n\n::hub\nNPC: Noch wat? Sonst les ick weiter.\n\n> Was liest
+    du da?\n-> lesen_1\n\n> Ich suche eine bestimmte Platte.\n-> platte_1\n\n> Arbeitest
+    du hier?\n-> arbeit_1\n\n> Woher kommst du?\n-> herkunft_1\n\n> Nein, tsch\xFCss.\nNPC:
+    Tsch\xFCssikowski. Und lass die T\xFCr nich offen.\n-> end"
   externalDialogue: {fileID: 0}
