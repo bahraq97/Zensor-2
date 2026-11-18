@@ -12,19 +12,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed298a5a4a9c1843a8000e5e1e580b0, type: 3}
   m_Name: Din A Testbild - Abfall
   m_EditorClassIdentifier: Assembly-CSharp::RecordData
-  title: Abfall
+  title: Abfall/Garbage
   author: Din A Testbild
   album: 
   year: 1979
-  description: 
+  description: "DIN A TESTBILDs \u201EAbfall / Garbage\u201C erschien 1979 als 7\"-Vinyl-Single
+    und geh\xF6rt zu den fr\xFChen Ver\xF6ffentlichungen der West-Berliner Underground-
+    und Avantgarde-Szene. Die Single entstand im Umfeld der experimentellen Musikbewegung,
+    die sich Ende der 1970er-Jahre zwischen Post-Punk, New Wave, Industrial und elektronischen
+    Kl\xE4ngen entwickelte. \nDie Ver\xF6ffentlichung steht exemplarisch f\xFCr den
+    unkonventionellen musikalischen Geist des damaligen West-Berlins: rohe, kantige
+    Kl\xE4nge treffen auf elektronische Elemente und eine bewusst provokante Auseinandersetzung
+    mit gesellschaftlichen Themen. Der Titel \u201EAbfall\u201C wird dabei auch im
+    \xFCbertragenen Sinne verstanden und spiegelt eine kritische Sicht auf Konsum,
+    Technik und die moderne Gesellschaft wider.\nDie Single wurde von der Band selbst
+    \xFCber B\xFCrgerlich Productions ver\xF6ffentlicht. Die Aufnahmen entstanden
+    am 11. Oktober 1979 in Berlin und wurden wenige Tage sp\xE4ter, am 17. Oktober,
+    abgemischt. Zur damaligen Besetzung geh\xF6rten unter anderem Mark Eins (Gesang,
+    Gitarre und Bass), Gudrun Gut sowie weitere Musiker wie Ian Wright, Nutty Norman
+    und Ralf Zimmermann.\nBesonders bemerkenswert ist die geringe Auflage: Von der
+    urspr\xFCnglichen Ver\xF6ffentlichung wurden lediglich 1.000 Exemplare gepresst.
+    Damit ist \u201EAbfall / Garbage\u201C nicht nur ein fr\xFChes Dokument der West-Berliner
+    Musikszene, sondern auch eine gesuchte Rarit\xE4t f\xFCr Sammler*innen. Die Single
+    klingt wie ein St\xFCck musikalischer Gegenkultur: roh, experimentell und kompromisslos
+    \u2013 ein kleiner Vorgeschmack auf den sp\xE4teren Ruf von DIN A TESTBILD als
+    Wegbereiter der Berliner Avantgarde. "
   sprite: {fileID: 0}
   format: 0
   speed: 0
-  vinylType: 1
+  vinylType: 0
   tracks:
-  - {fileID: 0}
-  labelFrontTexture: {fileID: 0}
-  labelBackTexture: {fileID: 0}
+  - {fileID: 8300000, guid: c144852f7448db6468ac083564147f4b, type: 3}
+  labelFrontTexture: {fileID: 2800000, guid: 78d6b38f2078e994b8fba911ebdc0219, type: 3}
+  labelBackTexture: {fileID: 2800000, guid: ab34de2a052b5c844b056f7f683a5da9, type: 3}
   coverFrontTexture: {fileID: 2800000, guid: b17f1703e2863404c8176f7d5a38fbd6, type: 3}
   coverBackTexture: {fileID: 2800000, guid: 040774a05ff666c4085659eadd82e9d5, type: 3}
   inserts:
@@ -32,3 +52,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8cd18bff425cef34385a05acc9ebb919, type: 3}
   - {fileID: 21300000, guid: 41b4fd9317e9fcf4995d448f110c1e87, type: 3}
   - {fileID: 21300000, guid: 49f3df3cdc17a524c862831091d8bc77, type: 3}
+  - {fileID: 21300000, guid: 28608525082a5b04bac3851735e7c1fa, type: 3}
+  - {fileID: 21300000, guid: 0c345e4227142124b9547f040c9c4952, type: 3}
+  - {fileID: 21300000, guid: 7a884249e16c67942970587ca825151a, type: 3}
+  - {fileID: 21300000, guid: 904e62467d94b724caf1e71fb6b53fbd, type: 3}
+  - {fileID: 21300000, guid: fb884a4a50c244040b3b8400f764d092, type: 3}
+  - {fileID: 21300000, guid: e434ea5ffb8f6404c95cb8ad5e893f5f, type: 3}
