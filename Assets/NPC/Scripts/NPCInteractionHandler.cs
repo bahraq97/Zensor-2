@@ -68,6 +68,27 @@ public class NPCInteractionHandler : MonoBehaviour
         if (!npc.IsInteractable)
             return;
 
+        // Seated or stationary NPCs: open the dialogue in place without walking.
+        if (!npc.WalkToInteractionAnchor)
+        {
+            if (GlobalInteractionState.Instance != null)
+                GlobalInteractionState.Instance.BlockInteractions();
+
+            npc.BeginInteraction();
+
+            if (NPCDialogueWindow.Instance != null)
+            {
+                npc.ActivateDialogueCamera();
+                NPCDialogueWindow.Instance.ShowDialogueScript(dialogueScript, npc);
+            }
+            else
+            {
+                npc.EndInteraction();
+            }
+
+            return;
+        }
+
         if (interactionAnchor == null)
         {
             Debug.LogWarning("Interaction anchor is null.");
@@ -84,6 +105,9 @@ public class NPCInteractionHandler : MonoBehaviour
             {
                 if (NPCDialogueWindow.Instance != null)
                 {
+                    // Switch the camera only now: the anchor is the main camera,
+                    // moving it earlier would cancel the walk to the anchor.
+                    npc.ActivateDialogueCamera();
                     NPCDialogueWindow.Instance.ShowDialogueScript(
                         dialogueScript,
                         npc

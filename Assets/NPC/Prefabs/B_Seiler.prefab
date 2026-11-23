@@ -4601,6 +4601,7 @@ MonoBehaviour:
   pickRandomPoints: 1
   avoidSamePointTwice: 1
   isInteractable: 1
+  walkToInteractionAnchor: 1
   doWelcomeInteractionAfterSpawn: 1
   welcomeDialogueScript: {fileID: 11400000, guid: be23c8cae9613f84fa33d1228f81094e, type: 2}
   welcomeInteractionDelay: 0.1
@@ -4609,6 +4610,7 @@ MonoBehaviour:
   animationController: {fileID: 5233928681277537747}
   drawGizmos: 1
   currentTarget: {fileID: 0}
+  dialogueCamera: {fileID: 0}
 --- !u!114 &5233928681277537747
 MonoBehaviour:
   m_ObjectHideFlags: 0
