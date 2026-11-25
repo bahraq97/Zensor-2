@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed298a5a4a9c1843a8000e5e1e580b0, type: 3}
+  m_Name: Manuel_Goettsching_E2E4
+  m_EditorClassIdentifier: Assembly-CSharp::RecordData
+  title: E2-E4
+  author: "Manuel G\xF6ttsching"
+  album: E2-E4
+  year: 1984
+  description: "Manuel G\xF6ttsching \u2013 \u201EE2-E4\u201C erschien 1984 auf dem
+    Berliner Label Inteam unter der Katalognummer ID 20.004 als LP. Das Album umfasst
+    insgesamt knapp 59 Minuten und ist in neun Abschnitte unterteilt. Side A umfasst:
+    \u201ERuhige Nervosit\xE4t\u201C (13:00), \u201EGem\xE4\xDFigter Aufbruch\u201C
+    (10:00), \u201E...Und Mittelspiel\u201C (7:00) und \u201EAnsatz\u201C (1:00).
+    Side B umfasst: \u201EDamen-Eleganza\u201C (5:00), \u201EEhrenvoller Kampf\u201C
+    (3:00), \u201EHoheit Weicht (Nicht Ohne Schwung...)\u201C (9:00), \u201E...Und
+    Souver\xE4nit\xE4t\u201C (3:00) und \u201ERemis\u201C (3:00). Urspr\xFCnglich
+    handelt es sich jedoch um ein zusammenh\xE4ngendes Musikst\xFCck, das G\xF6ttsching
+    am 12. Dezember 1981 in seinem Studio Roma in Berlin aufnahm.\n\nMusikalisch
+    bewegt sich die Ver\xF6ffentlichung zwischen Ambient, Minimal Music, Krautrock
+    und elektronischer Tanzmusik. Charakteristisch sind repetitive Synthesizer-Sequenzen,
+    ein gleichm\xE4\xDFiger Drumcomputer-Rhythmus und G\xF6ttschings zur\xFCckhaltendes,
+    beinahe schwebendes Gitarrenspiel. Statt einer klassischen Songstruktur entwickelt
+    sich die Musik durch kleinste Ver\xE4nderungen und \xDCberlagerungen immer weiter.
+    Der Albumtitel verweist auf den Schachzug e2\u2013e4, einen klassischen Er\xF6ffnungszug,
+    der sich auch in den Namen der einzelnen Abschnitte widerspiegelt. Komponiert,
+    eingespielt und produziert wurde das Album vollst\xE4ndig von Manuel G\xF6ttsching.\n\n\u201EE2-E4\u201C
+    gilt heute als eines der wegweisenden Werke elektronischer Musik und nahm Entwicklungen
+    der sp\xE4teren House- und Techno-Musik vorweg. Besonders durch seine hypnotischen
+    Rhythmen und die kontinuierliche Wiederholung musikalischer Motive beeinflusste
+    das Album die elektronische Clubmusik der folgenden Jahrzehnte. Was zun\xE4chst
+    wie eine experimentelle Klangstudie wirkt, verbindet auf ungew\xF6hnliche Weise
+    meditative Atmosph\xE4re mit einem fast t\xE4nzerischen Bewegungsfluss. Damit
+    wurde G\xF6ttsching zu einem wichtigen Wegbereiter einer elektronischen Musik,
+    die gleicherma\xDFen im heimischen Wohnzimmer wie auf der Tanzfl\xE4che funktionieren
+    kann."
+  sprite: {fileID: 0}
+  format: 0
+  speed: 0
+  vinylType: 1
+  tracks:
+  - {fileID: 8300000, guid: a04626cd91b636275994c1817acea3a6, type: 3}
+  - {fileID: 8300000, guid: d7abf73264d737790bb70b4c08613672, type: 3}
+  - {fileID: 8300000, guid: 34ce119fa672485f199a8a2b29e704d8, type: 3}
+  - {fileID: 8300000, guid: d88e54bf8ff3e2f2da9fb38d618b1065, type: 3}
+  - {fileID: 8300000, guid: ca41f53ac7a0c67af92f7cf188e98ea2, type: 3}
+  - {fileID: 8300000, guid: d05194172bec1b6b1b182c69f7150b8f, type: 3}
+  - {fileID: 8300000, guid: bd334d2868d0b5cd1b77cabda95a6308, type: 3}
+  - {fileID: 8300000, guid: 912d861c8d05499f29b8bdb7fb61a910, type: 3}
+  - {fileID: 8300000, guid: f84f5e68b166cadd7a5e88a77ab267ba, type: 3}
+  labelFrontTexture: {fileID: 2800000, guid: f3fa6481575a2fe57af0c5a719f86d36, type: 3}
+  labelBackTexture: {fileID: 2800000, guid: 463ad488a119676cfb86723d4c29339f, type: 3}
+  coverFrontTexture: {fileID: 2800000, guid: 2f5c11b311d748ce2b74488e807d2e07, type: 3}
+  coverBackTexture: {fileID: 2800000, guid: 735bb701c71827076bb4df49c33ff112, type: 3}

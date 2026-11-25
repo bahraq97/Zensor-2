@@ -2187,7 +2187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4386106217530650124, guid: 8ded5d01eab5fc945a34fecf24951018, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0014387447
+      value: -0.00034370914
       objectReference: {fileID: 0}
     - target: {fileID: 5233928681277537747, guid: 8ded5d01eab5fc945a34fecf24951018, type: 3}
       propertyPath: animationSpeedMultiplier
@@ -2900,7 +2900,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 60
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 10
   m_Depth: 0
@@ -2926,8 +2926,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660153183}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3017654, y: -0.64017487, z: 0.30260926, w: 0.63838977}
-  m_LocalPosition: {x: 5.2, y: 3.81, z: -8.58}
+  m_LocalRotation: {x: 0, y: -0.83845663, z: 0, w: 0.54496837}
+  m_LocalPosition: {x: 4.7176356, y: 3.81, z: 9.004942}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

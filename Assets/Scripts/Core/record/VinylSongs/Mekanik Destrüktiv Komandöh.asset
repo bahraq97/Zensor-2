@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed298a5a4a9c1843a8000e5e1e580b0, type: 3}
+  m_Name: "Mekanik Destr\xFCktiv Komand\xF6h"
+  m_EditorClassIdentifier: Assembly-CSharp::RecordData
+  title: "Mekanik Destr\xFCktiv Komand\xF6h - Der Tag Schl\xE4gt Zu"
+  author: "Mekanik Destr\xFCktiv Komand\xF6h"
+  album: "Der Tag Schl\xE4gt Zu"
+  year: 1982
+  description: "Die 1982 erschienene 12\"-EP \u201EDer Tag schl\xE4gt zu\u201C von
+    Mekanik Destr\xFCktiw Komand\xF6h geh\xF6rt zu den Ver\xF6ffentlichungen des
+    Zensor-Labels und dokumentiert die eigenwillige Klangsprache des West-Berliner
+    Punk-Undergrounds. Die Platte umfasst vier St\xFCcke: \u201EBerlin\u201C, \u201EDer
+    Tag schl\xE4gt zu\u201C, \u201EDie Babies von heute\u201C und \u201EWerwolf\u201C.
+    Die Band um S\xE4nger Volker Hauptvogel entwickelte einen unverwechselbaren Stil
+    zwischen Punk, New Wave und experimentellem Rock. Ihre Musik verbindet rohe Gitarren,
+    treibende Rhythmen und eine bewusst unkonventionelle \xC4sthetik. Bereits zuvor
+    hatte die Gruppe mit Ver\xF6ffentlichungen auf ZickZack Records und ihren intensiven
+    Live-Auftritten Aufmerksamkeit innerhalb der Berliner Szene erlangt. Mit der
+    Ver\xF6ffentlichung auf Zensor setzte sich diese musikalische Eigenst\xE4ndigkeit
+    fort. Die Platte steht f\xFCr eine Szene, in der musikalische Konventionen wenig
+    Bedeutung hatten und politische Haltung, k\xFCnstlerischer Ausdruck und radikale
+    Energie ineinandergriffen. Ein raues St\xFCck West-Berliner Musikgeschichte,
+    direkt und kompromisslos."
+  sprite: {fileID: 0}
+  format: 0
+  speed: 0
+  vinylType: 1
+  tracks:
+  - {fileID: 8300000, guid: 572ee557332ffd481a057ad56597d603, type: 3}
+  - {fileID: 8300000, guid: 46872a2b96a4799c2a922dea7e25e25f, type: 3}
+  - {fileID: 8300000, guid: e757ee45889b95728bb19f81a6bc7cf9, type: 3}
+  - {fileID: 8300000, guid: 96815a8bc036ad254b49c2280c381132, type: 3}
+  labelFrontTexture: {fileID: 2800000, guid: 5f202787cdfe6254b8b711079a0d6c6a, type: 3}
+  labelBackTexture: {fileID: 2800000, guid: 9d4a7df1cabe43a9da6f5ba9404812ad, type: 3}
+  coverFrontTexture: {fileID: 2800000, guid: ae6942c95a2037d188fcdfeea05ecf7a, type: 3}
+  coverBackTexture: {fileID: 2800000, guid: 42a8a1a8a918ad550b334e2d22f6132c, type: 3}

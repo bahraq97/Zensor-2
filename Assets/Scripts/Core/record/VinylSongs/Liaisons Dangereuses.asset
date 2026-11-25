@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed298a5a4a9c1843a8000e5e1e580b0, type: 3}
+  m_Name: Liaisons Dangereuses
+  m_EditorClassIdentifier: Assembly-CSharp::RecordData
+  title: Liaisons Dangereuses - Liaisons Dangereuses
+  author: Liaisons Dangereuses
+  album: Liaisons Dangereuses
+  year: 1981
+  description: "Das selbstbetitelte Deb\xFCtalbum von Liaisons Dangereuses erschien
+    1981 und z\xE4hlt zu den einflussreichen Ver\xF6ffentlichungen der fr\xFChen
+    elektronischen Underground-Musik. Hinter dem Projekt standen Beate Bartel, zuvor
+    Mitglied von Mania D., und Chrislo Haas, der unter anderem durch DAF bekannt
+    war. Erg\xE4nzt wurde das Duo durch den S\xE4nger Krishna Goineau, dessen mehrsprachiger
+    Gesang zwischen Franz\xF6sisch, Spanisch und Englisch die Musik ma\xDFgeblich
+    pr\xE4gt. Die zehn St\xFCcke, darunter \u201ELos Ni\xF1os Del Parque\u201C, \u201EEtre
+    Assis Ou Danser\u201C und \u201EPeut \xCAtre ... Pas\u201C, verbinden repetitive
+    Synthesizer-Sequenzen, mechanische Rhythmen und industrielle Klangstrukturen.
+    Aufgenommen wurde das Material zun\xE4chst auf Kassetten und anschlie\xDFend
+    im Conny's Studio in K\xF6ln zusammengestellt und gemischt. Obwohl das Album
+    nicht auf dem Zensor-Label erschien, geh\xF6rt es in den musikalischen Kosmos
+    jener experimentierfreudigen Underground-Szene, deren internationale Vernetzung
+    und musikalische Offenheit auch den Kontext des Berliner Zensor-Ladens ausmachten.
+    Seine hypnotischen Rhythmen und minimalistischen Arrangements nahmen Entwicklungen
+    von Electronic Body Music bis hin zu House und Techno vorweg. K\xFChl, k\xF6rperlich
+    und beinahe maschinell \u2013 elektronische Musik, die weniger zum Zuh\xF6ren
+    als zum Bewegen einl\xE4dt."
+  sprite: {fileID: 0}
+  format: 0
+  speed: 0
+  vinylType: 1
+  tracks:
+  - {fileID: 8300000, guid: e7dfc987b9d5060d9b37320fb10d38cc, type: 3}
+  - {fileID: 8300000, guid: 8f3bb635b80b5318fa5a06a60f3a1b8b, type: 3}
+  - {fileID: 8300000, guid: d633b46b7cc76da9faff4f5f28c6f60c, type: 3}
+  - {fileID: 8300000, guid: 9bff05f20de894601b200145d0f70afe, type: 3}
+  - {fileID: 8300000, guid: 778f5a74d51c0dd0c994709d62d13b53, type: 3}
+  - {fileID: 8300000, guid: 7ad3dbd5465cce6dc8930453fa847b89, type: 3}
+  - {fileID: 8300000, guid: b1e035c2019242c918be898ad4c384a8, type: 3}
+  - {fileID: 8300000, guid: 9c8dfde3baa1e0388af27ace56cc6c72, type: 3}
+  - {fileID: 8300000, guid: 4c14f17eec4c7341f817a31c9682e80d, type: 3}
+  - {fileID: 8300000, guid: dd2428dc71ef93766bf4f957c8ce3f4d, type: 3}
+  labelFrontTexture: {fileID: 2800000, guid: 62ccb61ec1509dec4810ade97c065787, type: 3}
+  labelBackTexture: {fileID: 2800000, guid: 1b6d800cf50bf12dd862769632320576, type: 3}
+  coverFrontTexture: {fileID: 2800000, guid: 115ffb4949bd9dcde9fbd3653b9a47ba, type: 3}
+  coverBackTexture: {fileID: 2800000, guid: c51ad01a0021eb8b08110ea8208b4785, type: 3}
