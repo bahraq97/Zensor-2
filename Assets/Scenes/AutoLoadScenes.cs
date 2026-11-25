@@ -18,8 +18,10 @@ namespace Scenes
     {
         /** Name of the main Scene, the other Scenes get loaded into it */
         private const string MainSceneName = "main";
+
         /** Folder that gets searched for Scenes */
         private const string ScenesFolder = "Assets/Scenes";
+
         /** Folders with these names get skipped when searching for Scenes */
         private static readonly List<string> ExcludeFolders = new List<string> { "test" };
 
@@ -55,7 +57,7 @@ namespace Scenes
 
         /**
          * Loads a scene additively into the currently open main scene.
-         * 
+         *
          * @param scenePath The path of the scene to load.
          */
         private static void AddSceneToMainScene(string scenePath)
@@ -73,7 +75,7 @@ namespace Scenes
 
         /**
          * Recursively scans a folder and its subfolders for scene files.
-         * 
+         *
          * @param folderPath The path of the folder to scan.
          * @return A list of paths to all scene files found.
          */
@@ -113,7 +115,7 @@ namespace Scenes
 
         /**
          * Checks whether a file is a Unity scene.
-         * 
+         *
          * @param filePath The path of the file to check.
          * @return True if the file is a scene, false otherwise.
          */
@@ -124,7 +126,7 @@ namespace Scenes
 
         /**
          * Checks whether a folder should be included in the scene scan.
-         * 
+         *
          * @param folderPath The path of the folder to check.
          * @return True if the folder should be scanned, false if it is excluded.
          */
